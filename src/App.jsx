@@ -89,9 +89,9 @@ const SKILLS = [
 ];
 
 const TIMELINE = [
-  { year: "2022", title: "First Line of Code", desc: "Started self-teaching web development out of pure curiosity. HTML, CSS, and JavaScript — built my first static websites." },
-  { year: "2023", title: "Going Full-Stack", desc: "Discovered React and Node.js. Built first dynamic apps, learned about APIs, databases, and how the web actually works under the hood." },
-  { year: "2023", title: "Hardware Meets Software", desc: "Got my first Raspberry Pi. Started wiring sensors, writing GPIO scripts, and realising that software could control physical things." },
+  { year: "2025", title: "First Line of Code", desc: "Started self-teaching web development out of pure curiosity. HTML, CSS, and JavaScript — built my first static websites." },
+  { year: "2025", title: "Going Full-Stack", desc: "Discovered React and Node.js. Built first dynamic apps, learned about APIs, databases, and how the web actually works under the hood." },
+  { year: "2025", title: "Hardware Meets Software", desc: "Got my first Raspberry Pi. Started wiring sensors, writing GPIO scripts, and realising that software could control physical things." },
   { year: "2025", title: "Smart Home Dashboard", desc: "Launched my flagship project — a production-grade real-time IoT dashboard running on a Pi 5 with Socket.io, motion detection, and an AI assistant." },
   { year: "2025", title: "Cybersecurity Focus", desc: "Began pursuing cybersecurity — studying network security, server hardening, and working towards CompTIA Security+." },
   { year: "Now",  title: "Open for Freelance", desc: "Actively taking on freelance projects. Building in public, learning every day, and looking for the right team to grow with." },
