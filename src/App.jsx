@@ -45,7 +45,7 @@ const PROJECTS = [
     title: "SecureBot",
     subtitle: "Tamper-Aware Autonomous Navigation System",
     tag: "IoT / Security",
-    year: "2025",
+    year: "2026",
     stack: ["Arduino Uno R3", "Raspberry Pi 5", "MPU-6050 IMU", "MQTT", "Flask", "SQLite", "Python", "JavaScript"],
     description: "A real-time IoT security pipeline built on Arduino and Raspberry Pi 5. Detects physical tampering using a 6-axis IMU sensor, routes telemetry through an MQTT broker with flood/replay attack detection, logs everything to SQLite, and streams a live dashboard over HTTP. Features JWT authentication and SHA-256 firmware integrity checking.",
     highlights: [
@@ -64,7 +64,7 @@ const PROJECTS = [
     title: "JOESTAR",
     subtitle: "AI Personal Assistant with Voice & Memory",
     tag: "AI / Full-Stack",
-    year: "2025",
+    year: "2026",
     stack: ["FastAPI", "WebSockets", "Groq LLM", "ChromaDB", "Edge TTS", "Three.js", "SQLite", "Python"],
     description: "A cinematic AI assistant with a real-time 3D orb interface, voice synthesis via Edge TTS, and semantic memory using ChromaDB vector embeddings. Runs on a FastAPI WebSocket backend with tool use (web search, file system, weather, calendar). The frontend renders a live audio-reactive Three.js sphere.",
     highlights: [
@@ -83,7 +83,7 @@ const PROJECTS = [
     title: "KIO3",
     subtitle: "AI-Powered Calorie & Nutrition Tracker",
     tag: "Full-Stack / Mobile",
-    year: "2025",
+    year: "2026",
     stack: ["React 19", "Vite 8", "Firebase", "USDA FoodData API", "Claude AI", "Express.js", "Capacitor", "Chart.js"],
     description: "A production-grade nutrition tracking web app with barcode scanning, USDA food database integration, real-time Firestore sync, and a Claude-powered AI nutrition chatbot. Features a custom SVG arc gauge, calorie streak tracking, weekly bar charts, and offline persistence. Deployed to GitHub Pages with an Android-ready Capacitor build.",
     highlights: [
@@ -102,7 +102,7 @@ const PROJECTS = [
     title: "MindBridge",
     subtitle: "Mental Health Support & Recovery App",
     tag: "Full-Stack / Firebase",
-    year: "2025",
+    year: "2026",
     stack: ["React 18", "Firebase Auth", "Firestore", "React Router", "Lucide Icons", "Vite", "gh-pages"],
     description: "A mobile-first mental wellness platform that lets users send emotional 'signals' to trusted contacts, exchange messages through real-time Firestore chat, and track addiction recovery with a live countdown timer. Features Firestore security rules, a sobriety milestone system, and a feedback dashboard with rating analytics.",
     highlights: [
@@ -121,7 +121,7 @@ const PROJECTS = [
     title: "Personal Finance Tracker",
     subtitle: "Terminal-Based Financial Management Tool",
     tag: "Python / CLI",
-    year: "2025",
+    year: "2026",
     stack: ["Python 3", "SQLite3", "Matplotlib", "ReportLab", "CLI"],
     description: "A terminal-based finance tool for tracking income, expenses, savings goals, and recurring transactions. Generates Matplotlib visualisations (pie, bar, grouped bar) and exports full PDF reports with ReportLab. All data stored locally — no internet required.",
     highlights: [
@@ -157,12 +157,12 @@ const SKILLS = [
 
 const TIMELINE = [
   { year: "Early 2025", title: "First Line of Code", desc: "Picked up HTML, CSS, and JavaScript out of pure curiosity. Built static websites just to see something appear on screen." },
-  { year: "Mid 2025",   title: "Going Full-Stack", desc: "Discovered React and Python backends. Built first dynamic apps — learned APIs, databases, and how the web actually works under the hood." },
-  { year: "Mid 2025",   title: "Finance Tracker", desc: "First Python CLI project. SQLite, Matplotlib charts, ReportLab PDF exports. Learned to architect a real application from scratch." },
-  { year: "Mid 2025",   title: "Hardware Meets Software", desc: "Got a Raspberry Pi 5 and Arduino. Started wiring sensors, writing GPIO scripts — realising software could control physical things." },
-  { year: "Late 2025",  title: "SecureBot — IoT Security Pipeline", desc: "Built a full tamper-detection system: IMU sensor → Arduino → MQTT → Raspberry Pi → Flask dashboard with IDS, JWT auth, and firmware integrity checks." },
-  { year: "Late 2025",  title: "KIO3 & MindBridge", desc: "Two full-stack Firebase apps: a nutrition tracker with Claude AI + barcode scanning, and a mental health platform with real-time messaging and recovery tracking." },
-  { year: "Late 2025",  title: "JOESTAR — AI Voice Assistant", desc: "FastAPI WebSocket backend, Groq LLM with tool use, ChromaDB memory, Edge TTS voice, and an audio-reactive Three.js 3D orb interface." },
+  { year: "Late 2025",   title: "Going Full-Stack", desc: "Discovered React and Python backends. Built first dynamic apps — learned APIs, databases, and how the web actually works under the hood." },
+  { year: "Early 2026",   title: "Finance Tracker", desc: "First Python CLI project. SQLite, Matplotlib charts, ReportLab PDF exports. Learned to architect a real application from scratch." },
+  { year: "Early 2026",   title: "Hardware Meets Software", desc: "Got a Raspberry Pi 5 and Arduino. Started wiring sensors, writing GPIO scripts — realising software could control physical things." },
+  { year: "Mid 2026",  title: "SecureBot — IoT Security Pipeline", desc: "Built a full tamper-detection system: IMU sensor → Arduino → MQTT → Raspberry Pi → Flask dashboard with IDS, JWT auth, and firmware integrity checks." },
+  { year: "Mid 2026",  title: "KIO3 & MindBridge", desc: "Two full-stack Firebase apps: a nutrition tracker with Claude AI + barcode scanning, and a mental health platform with real-time messaging and recovery tracking." },
+  { year: "Mid 2026",  title: "JOESTAR — AI Voice Assistant", desc: "FastAPI WebSocket backend, Groq LLM with tool use, ChromaDB memory, Edge TTS voice, and an audio-reactive Three.js 3D orb interface." },
   { year: "Now",        title: "Open for Freelance", desc: "Actively building and taking on projects. Pursuing CompTIA Security+. Looking for the right team to grow with." },
 ];
 
@@ -262,7 +262,7 @@ function Hero() {
     return () => clearInterval(t);
   }, []);
 
-  const stats = [["2025", "Year I Started"], ["5+", "Shipped Projects"], ["10+", "Technologies"], ["100%", "Self-Taught"]];
+  const stats = [["2025", "Year I Started"], ["5+", "Shipped Projects"], ["10+", "Technologies"], ["Zindua School", "United States International University - Africa"]];
 
   return (
     <div id="hero" style={{ minHeight:"100vh", display:"flex", flexDirection:"column", justifyContent:"center", padding:"80px 24px 0", position:"relative", overflow:"hidden" }}>
