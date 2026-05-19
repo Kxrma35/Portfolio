@@ -351,7 +351,7 @@ function About() {
             Building things that actually work.
           </h2>
           <p style={{ color: C.muted, lineHeight:1.9, fontSize:"15px", margin:"0 0 18px" }}>
-            I'm a self-taught full-stack developer from Nairobi, Kenya. I started coding in 2025 and haven't stopped — teaching myself everything from React to Raspberry Pi GPIO wiring to AI tool orchestration.
+           I'm a full-stack developer who studied in Zindua school for a certificate in software engineering core and currently attending the United States International University-Africa pursuing a Bsc. Applied Computer Technology. I started coding in 2025 and haven't stopped — teaching myself everything from React to Raspberry Pi GPIO wiring to AI tool orchestration.
           </p>
           <p style={{ color: C.muted, lineHeight:1.9, fontSize:"15px", margin:"0 0 18px" }}>
             In under a year I shipped five real projects: a hardware IoT security system, an AI voice assistant with semantic memory, two Firebase web apps, and a Python CLI finance tool. Every project runs, deploys, and solves a real problem.
